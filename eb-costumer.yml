@@ -20,3 +20,10 @@ management:
 
 server:
   port: 8080
+
+endpoints:
+  countries:
+    name: restCountries
+    host: https://restcountries.eu/
+    connectTimeout: 30000
+    readTimeout: 30000
