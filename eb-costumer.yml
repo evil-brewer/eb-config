@@ -2,13 +2,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://costumer:costumer@localhost:27017/dbCostumer
-    redis:
-      repositories:
-        enabled: false
-  redis:
-    host: localhost
-    port: 6379
-    expirationTime: 86400
 
 security:
   basic:
@@ -19,11 +12,4 @@ management:
     enabled: false
 
 server:
-  port: 8080
-
-endpoints:
-  countries:
-    name: restCountries
-    host: https://restcountries.eu/
-    connectTimeout: 30000
-    readTimeout: 30000
+  port: 8081
