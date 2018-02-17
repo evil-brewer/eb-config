@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://costumer:costumer@localhost:27017/dbCostumer
+
+security:
+  basic:
+    enabled: false
+    
+management:
+  security:
+    enabled: false
+
+server:
+  port: 8080
