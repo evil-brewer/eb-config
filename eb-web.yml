@@ -22,6 +22,7 @@ server:
 endpoints:
   countries:
     name: restCountries
-    host: https://restcountries.eu/rest/v2/all
+    #host: https://restcountries.eu/rest/v2/all
+    host: http://api.worldbank.org/v2/countries
     connectTimeout: 30000
     readTimeout: 30000
