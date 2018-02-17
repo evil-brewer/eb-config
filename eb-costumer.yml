@@ -2,6 +2,10 @@ spring:
   data:
     mongodb:
       uri: mongodb://costumer:costumer@localhost:27017/dbCostumer
+  redis:
+    host: localhost
+    port: 6379
+    expirationTime: 86400
 
 security:
   basic:
