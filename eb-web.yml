@@ -23,6 +23,6 @@ endpoints:
   countries:
     name: restCountries
     host: https://restcountries.eu/rest/v2/all
-    user-agent: User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+    user-agent: "User-Agent=Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36"
     connectTimeout: 30000
     readTimeout: 30000
