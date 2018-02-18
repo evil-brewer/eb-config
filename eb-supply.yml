@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://supply:supply@localhost:27017/dbSupply
+
+security:
+  basic:
+    enabled: false
+    
+management:
+  security:
+    enabled: false
+
+server:
+  port: 8081
