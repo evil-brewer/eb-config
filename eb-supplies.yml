@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://supply:supply@localhost:27017/dbSupply
+      uri: mongodb://supplies:supplies@localhost:27017/dbSupplies
 
 security:
   basic:
