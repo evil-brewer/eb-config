@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://evaluation:evaluation@localhost:27017/dbEvaluation
+
+security:
+  basic:
+    enabled: false
+    
+management:
+  security:
+    enabled: false
+
+server:
+  port: 8083
