@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: eb-discovery
-
 server:
   port: 8761
 
