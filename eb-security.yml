@@ -7,4 +7,7 @@ management:
     enabled: false
 
 server:
+  contextPath: /auth
+
+server:
   port: 8901
