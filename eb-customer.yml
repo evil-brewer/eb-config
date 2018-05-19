@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://costumer:costumer@localhost:27017/dbCostumer
+      uri: mongodb://customer:customer@localhost:27017/dbCustomer
 
 security:
   basic:
