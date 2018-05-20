@@ -1,5 +1,5 @@
 spring:
   oauth2:
     resource:
-      userInfoUri: http://localhost/user
+      userInfoUri: http://localhost/auth/user
       loadBalanced: true
