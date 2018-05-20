@@ -1,7 +1,4 @@
-security:
-  basic:
-    enabled: false
-
 server:
   port: 8901
-  contextPath: /auth
+  servlet:
+    contextPath: /auth
