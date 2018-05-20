@@ -1,0 +1,5 @@
+spring:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost/user
+      loadBalanced: true
