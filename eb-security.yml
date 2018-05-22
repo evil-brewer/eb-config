@@ -1,12 +1,3 @@
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: create
-  datasource:
-    url: jdbc:mysql://localhost:3306/db_security
-    username: evilbrewer
-    password: security
-
 server:
   port: 8901
   servlet:
