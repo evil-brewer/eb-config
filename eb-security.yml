@@ -6,6 +6,7 @@ spring:
     url: jdbc:mysql://localhost:3306/db_security
     username: evilbrewer
     password: security
+    driver-class-name: com.mysql.jdbc.Driver
 
 server:
   port: 8901
