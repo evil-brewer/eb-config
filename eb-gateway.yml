@@ -1,7 +1,4 @@
 server:
   port: 5555
 
-management:
-  endpoints:
-    web:
-      expose: *
+management.endpoints.web.exposure.include=*
