@@ -1,2 +1,6 @@
 server:
   port: 5555
+
+management:
+  security:
+    enabled: false
