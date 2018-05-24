@@ -4,3 +4,8 @@ server:
 management:
   security:
     enabled: false
+
+endpoints:
+  security:
+    name: eb-security
+    oauth-url: auth/oauth/token
