@@ -1,3 +1,15 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8085
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 server:
   port: 8901
   servlet:
