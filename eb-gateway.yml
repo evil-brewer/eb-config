@@ -1,9 +1,17 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8085
+
 server:
   port: 5555
 
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 endpoints:
   security:
