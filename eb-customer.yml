@@ -2,14 +2,16 @@ spring:
   data:
     mongodb:
       uri: mongodb://customer:customer@localhost:27017/dbCustomer
+  boot:
+    admin:
+      client:
+        url: http://localhost:8085
 
-security:
-  basic:
-    enabled: false
-    
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 server:
   port: 8081
