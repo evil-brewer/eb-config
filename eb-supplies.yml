@@ -2,14 +2,16 @@ spring:
   data:
     mongodb:
       uri: mongodb://supplies:supplies@localhost:27017/dbSupplies
+  boot:
+    admin:
+      client:
+        url: http://localhost:8085
 
-security:
-  basic:
-    enabled: false
-    
 management:
-  security:
-    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 server:
   port: 8082
