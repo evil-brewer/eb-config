@@ -10,6 +10,11 @@ management:
       exposure:
         include: "*"
 
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8901/auth/user
+
 server:
   port: 5555
 
