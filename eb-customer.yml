@@ -7,11 +7,6 @@ spring:
       client:
         url: http://localhost:8085
 
-security:
-  oauth2:
-    resource:
-      userInfoUri: http://localhost:8901/auth/user
-      
 management:
   endpoints:
     web:
