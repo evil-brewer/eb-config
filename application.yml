@@ -9,7 +9,7 @@ spring:
       client:
         provider:
           my-oauth-provider:
-            token-uri: http://localhost:8901/auth/user
+            token-uri: http://localhost:8901/userinfo
       
 eureka:
   instance:
