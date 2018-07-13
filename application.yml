@@ -1,8 +1,8 @@
-spring:
+security:
   oauth2:
     resource:
-      userInfoUri: http://localhost/auth/user
-
+      userInfoUri: http://localhost:8901/auth/user
+      
 eureka:
   instance:
     preferIpAddress: true
