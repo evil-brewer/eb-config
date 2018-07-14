@@ -4,6 +4,9 @@ spring:
       client:
         url: http://localhost:8085
 
+zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
+
 management:
   endpoints:
     web:
