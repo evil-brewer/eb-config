@@ -1,7 +1,7 @@
-# security:
-#   oauth2:
-#     resource:
-#       userInfoUri: http://localhost:8901/auth/user
+security:
+  oauth2:
+    resource:
+      userInfoUri: http://localhost:8901/auth/user
 
 spring:
   security:
