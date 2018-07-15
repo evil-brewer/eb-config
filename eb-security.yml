@@ -10,6 +10,9 @@ management:
       exposure:
         include: "*"
 
+jwt:
+  signing-key: ${spring.application.name}
+
 server:
   port: 8901
   servlet:
