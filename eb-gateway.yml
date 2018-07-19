@@ -18,11 +18,5 @@ server:
 
 security:
   oauth2:
-    client:
-      client-id: evilbrewer
-      client-secret: evilbrewer
-      access-token-uri: http://eb-security/auth/oauth/token
-      user-authorization-uri: http://eb-security/auth/oauth/authorize
-      scope: webclient
     resource:
       userInfoUri: http://eb-security/auth/user
