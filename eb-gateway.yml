@@ -7,6 +7,14 @@ spring:
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie
 
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      accessTokenUri: https://localhost/auth/oauth/token
+      userAuthorizationUri: https://localhost/auth/oauth/authorize
+
 management:
   endpoints:
     web:
