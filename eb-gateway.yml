@@ -15,3 +15,12 @@ management:
 
 server:
   port: 5555
+
+security:
+  oauth2:
+    client:
+      client-id: evilbrewer
+      client-secret: evilbrewer
+      access-token-uri: https://localhost/auth/oauth/token
+      user-authorization-uri: https://localhost/auth/oauth/authorize
+      scope: webclient
