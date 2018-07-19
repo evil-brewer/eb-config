@@ -19,4 +19,4 @@ server:
 security:
   oauth2:
     resource:
-      userInfoUri: http://eb-security/auth/user
+      userInfoUri: http://localhost:8901/auth/user
