@@ -13,5 +13,10 @@ management:
       exposure:
         include: "*"
 
+security:
+  oauth2:
+    client:
+      accessTokenUri: http://localhost:8901/auth/oauth/token
+
 server:
   port: 5555
