@@ -21,6 +21,6 @@ security:
     client:
       client-id: evilbrewer
       client-secret: evilbrewer
-      access-token-uri: https://localhost/auth/oauth/token
-      user-authorization-uri: https://localhost/auth/oauth/authorize
+      access-token-uri: https://localhost:8901/auth/oauth/token
+      user-authorization-uri: https://localhost:8901/auth/oauth/authorize
       scope: webclient
