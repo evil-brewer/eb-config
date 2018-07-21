@@ -6,10 +6,6 @@ spring:
 
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie
-  ignored-services: *
-  routes:
-    eb:
-      serviceId: eb-customer
 
 management:
   endpoints:
