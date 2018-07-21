@@ -6,7 +6,7 @@ spring:
     testWhileIdle: true
     validationQuery: SELECT 1
   jpa:
-    show-sql = true
+    show-sql: true
     hibernate:
       ddl-auto: update
       naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
