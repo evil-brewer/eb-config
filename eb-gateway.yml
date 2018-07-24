@@ -15,13 +15,3 @@ management:
 
 server:
   port: 5555
-  
-security:
-  basic:
-    enabled: false
-  oauth2:
-    sso:
-      loginPath: /login
-    client:
-      accessTokenUri: https:localhost:8901/auth/oauth/token
-      userAuthorizationUri: https:localhost:8901/auth/oauth/authorize
