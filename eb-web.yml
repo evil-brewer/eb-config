@@ -20,11 +20,6 @@ management:
 
 server:
   port: 8080
-  servlet:
-    context-path: /ui
-  session:
-    cookie:
-      name: UISESSION
 
 endpoints:
   countries:
@@ -32,15 +27,3 @@ endpoints:
     host: https://restcountries.eu/rest/v2/all
     connectTimeout: 30000
     readTimeout: 30000
-
-security:
-  basic:
-    enabled: false
-  oauth2:
-    client:
-      clientId: evilbrewer
-      clientSecret: evilbrewer
-      accessTokenUri: http://localhost:8901/auth/oauth/token
-      userAuthorizationUri: http://localhost:8901/auth/oauth/authorize
-    resource:
-      userInfoUri: http://localhost:8081/auth/user/me
