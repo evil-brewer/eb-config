@@ -20,6 +20,11 @@ management:
 
 server:
   port: 8080
+  servlet:
+    context-path: /ui
+   session:
+    cookie:
+      name: UISESSION
 
 endpoints:
   countries:
