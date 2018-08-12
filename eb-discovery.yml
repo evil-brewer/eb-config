@@ -4,6 +4,10 @@ spring:
       client:
         url: http://localhost:8085
 
+eureka:
+  server:
+    eviction-interval-timer-in-ms: 30000
+
 management:
   endpoints:
     web:
