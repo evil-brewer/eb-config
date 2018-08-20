@@ -13,10 +13,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
-  boot:
-    admin:
-      client:
-        url: http://localhost:8085
 
 management:
   endpoints:
