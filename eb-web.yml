@@ -7,10 +7,6 @@ spring:
     host: localhost
     port: 6379
     expirationTime: 86400
-  boot:
-    admin:
-      client:
-        url: http://localhost:8085
 
 management:
   endpoints:
