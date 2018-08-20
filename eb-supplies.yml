@@ -2,10 +2,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://supplies:supplies@localhost:27018/dbSupplies
-  boot:
-    admin:
-      client:
-        url: http://localhost:8085
 
 management:
   endpoints:
