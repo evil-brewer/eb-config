@@ -1,3 +1,9 @@
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8085
+
 security:
   oauth2:
     resource:
