@@ -1,14 +1,12 @@
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie,Authorization
+  ignoredServices: 'eb-config-server, eb-discovery, eb-security'
 
 management:
   endpoints:
     web:
       exposure:
         include: "*"
-
-zuul:
-  ignoredServices: "eb-config-server, eb-discovery, eb-security"
 
 server:
   port: 5555
