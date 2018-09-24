@@ -8,7 +8,7 @@ management:
         include: "*"
 
 zuul:
-  ignoredServices: 'eb-config-server, eb-discovery, eb-security'
+  ignoredServices: "eb-config-server, eb-discovery, eb-security"
 
 server:
   port: 5555
