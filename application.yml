@@ -3,6 +3,8 @@ spring:
     admin:
       client:
         url: http://localhost:8085
+  zipkin:
+    baseUrl: localhost:9411
 
 security:
   oauth2:
