@@ -1,3 +1,8 @@
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
+
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie,Authorization
   ignoredServices: 'eb-config-server, eb-discovery, eb-security'
