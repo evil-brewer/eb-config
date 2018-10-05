@@ -2,7 +2,10 @@ spring:
   data:
     mongodb:
       uri: mongodb://evaluation:evaluation@localhost:27017/dbEvaluation
-    
+  sleuth:
+    sampler:
+      percentage: 1.0
+
 management:
   endpoints:
     web:
