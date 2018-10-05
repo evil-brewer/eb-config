@@ -3,6 +3,10 @@ management:
     web:
       exposure:
         include: "*"
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
 
 server:
   port: 9411
