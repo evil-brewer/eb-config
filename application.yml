@@ -3,6 +3,8 @@ spring:
     admin:
       client:
         url: http://localhost:8085
+  jmx:
+    enabled: false
   zipkin:
     baseUrl: http://localhost:9411
 
