@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://recipes:recipes@localhost:27017/dbRecipes
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8083
