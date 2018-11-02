@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://customers:customers@localhost:27019/dbCustomers
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8081
