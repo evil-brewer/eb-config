@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://equipments:equipments@localhost:27020/dbEquipments
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8084
