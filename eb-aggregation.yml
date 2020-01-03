@@ -1,0 +1,19 @@
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8087
+  
+graphql:
+  servlet:
+    mapping: /v1/eb-aggregation/
+    enabled: true
+    corsEnabled: true
