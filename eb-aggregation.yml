@@ -14,6 +14,6 @@ server:
   
 graphql:
   servlet:
-    mapping: /v1/eb-aggregation/
+    mapping: /v1/eb-aggregation/graphql
     enabled: true
     corsEnabled: true

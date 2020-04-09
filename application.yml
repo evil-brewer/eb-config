@@ -1,6 +1,8 @@
 spring:
   jmx:
     enabled: false
+  main:
+    allow-bean-definition-overriding: true
 
 security:
   oauth2:
