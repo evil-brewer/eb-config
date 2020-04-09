@@ -5,7 +5,7 @@ spring:
 
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie,Authorization
-  ignoredServices: 'eb-config-server, eb-discovery, eb-security, eb-admin, eb-zipkin-server'
+  ignoredServices: 'eb-config-server, eb-discovery, eb-security'
 
 management:
   endpoints:

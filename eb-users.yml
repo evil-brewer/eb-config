@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://customers:customers@localhost:27019/dbCustomers
+      uri: mongodb://users:users@localhost:27019/dbUsers
   sleuth:
     sampler:
       percentage: 1.0
