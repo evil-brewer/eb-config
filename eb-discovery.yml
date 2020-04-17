@@ -1,6 +1,6 @@
 eureka:
   server:
-    eviction-interval-timer-in-ms: 30000
+    eviction-interval-timer-in-ms: 1000
 
 management:
   endpoints:
