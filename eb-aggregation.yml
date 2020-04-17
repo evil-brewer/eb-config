@@ -1,6 +1,4 @@
 spring:
-  main:
-    allow-bean-definition-overriding: true
   sleuth:
     sampler:
       percentage: 1.0
