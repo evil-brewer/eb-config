@@ -1,7 +1,4 @@
 spring:
-  data:
-    mongodb:
-      uri: mongodb://supplies:supplies@localhost:27018/dbSupplies
   sleuth:
     sampler:
       percentage: 1.0
@@ -14,3 +11,12 @@ management:
 
 server:
   port: 8082
+  
+orika:
+  enabled: true
+  useBuiltinConverters: true
+  useAutoMapping: true
+  mapNulls: true
+  dumpStateOnException: true
+  favorExtension: true
+  captureFieldContext: true
