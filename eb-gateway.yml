@@ -6,12 +6,3 @@ spring:
 zuul:
   sensitiveHeaders: Cookie,Set-Cookie,Authorization
   ignoredServices: 'eb-config-server, eb-discovery, eb-security'
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-
-server:
-  port: 5555
