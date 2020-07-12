@@ -6,7 +6,7 @@ spring:
 
 eureka:
   instance:
-    preferIpAddress: true
+    prefer-ip-address: true
   client:
     registerWithEureka: true
     fetchRegistry: true
