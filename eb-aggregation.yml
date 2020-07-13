@@ -3,10 +3,6 @@ spring:
     sampler:
       percentage: 1.0
 
-feign:
-  httpclient:
-    enabled: true
-
 graphql:
   servlet:
     mapping: /v1/eb-aggregation/graphql
