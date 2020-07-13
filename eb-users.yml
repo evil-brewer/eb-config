@@ -1,7 +1,11 @@
 spring:
-  data:
-    mongodb:
-      uri: mongodb://users:users@localhost:27019/dbUsers
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: docker
+  jpa:
+    properties.hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
   sleuth:
     sampler:
       percentage: 1.0
