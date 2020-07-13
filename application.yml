@@ -3,6 +3,10 @@ spring:
     enabled: false
   main:
     allow-bean-definition-overriding: true
+    
+feign:
+  httpclient:
+    enabled: true
 
 eureka:
   instance:
