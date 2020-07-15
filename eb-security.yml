@@ -7,3 +7,13 @@ server:
   port: 8901
   servlet:
     contextPath: /auth
+
+eb:
+  oauth2:
+    client: evilbrewer
+    authorizedGrantTypes:
+      - password
+      - refresh_token
+    scopes: web-app
+    accessTokenValiditySeconds: 3600
+    refreshTokenValiditySeconds: 86400
