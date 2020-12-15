@@ -9,3 +9,12 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
+
+orika:
+  enabled: true
+  useBuiltinConverters: true
+  useAutoMapping: true
+  mapNulls: false
+  dumpStateOnException: true
+  favorExtension: true
+  captureFieldContext: true
