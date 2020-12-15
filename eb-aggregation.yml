@@ -8,3 +8,12 @@ graphql:
     mapping: /v1/eb-aggregation/graphql
     enabled: true
     corsEnabled: true
+
+orika:
+  enabled: true
+  useBuiltinConverters: true
+  useAutoMapping: true
+  mapNulls: false
+  dumpStateOnException: true
+  favorExtension: true
+  captureFieldContext: true
